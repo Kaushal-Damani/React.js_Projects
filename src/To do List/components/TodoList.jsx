@@ -14,7 +14,7 @@ export default function TodoList() {
     setInput("");
   };
 
-  const todos = useSelector((state) => state.todos);
+  const todos = useSelector((state) => state.todos.todos);
 
   return (
     <>
