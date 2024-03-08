@@ -30,7 +30,7 @@ export default function weatherApp() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
+    <div className="flex flex-col items-center justify-center bg-[#4B515D] min-h-screen">
       <div className="shadow-2xl box-content font-bold text-xl text-white p-4 border-2 rounded-lg bg-gradient-to-b from-[#4066a4] to-[#ccaba6]">
         <div className="flex">
           <input

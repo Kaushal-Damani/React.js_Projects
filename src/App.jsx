@@ -1,6 +1,8 @@
 import TodoList from "./To do List/components/TodoList";
 import UserData from "./multiInput/UserData";
 import WeatherApp from "./Weather Web App/components/WeatherApp";
+import QrCode from "./QR Code generator/QrCode";
+import Converter from "./Currency Converter/Components/Converter";
 
 function App() {
   return (
@@ -9,10 +11,16 @@ function App() {
       {/* <UserData /> */}
 
       {/* To do List */}
-      <TodoList />
+      {/* <TodoList /> */}
 
       {/* Weather Web App */}
-      <WeatherApp />
+      {/* <WeatherApp /> */}
+
+      {/* QR Code Generator */}
+      {/* <QrCode /> */}
+
+      {/* Currency Convertor */}
+      <Converter />
     </>
   );
 }
